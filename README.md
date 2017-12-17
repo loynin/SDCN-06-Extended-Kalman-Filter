@@ -2,7 +2,7 @@
 Udacity Self-Driving Car Nanodegree - Extended Kalman Filter Implementation test
 
 # Overview
-This project implement an Extended Kalman Filter in Self-driving car to track and predict the position of objects around the vehicle. In this object, the EKF system use two sensors data from RADAR and LIDAR measurement for processing EKF. This project used C++ as a programming language because it perform fast and can decrectly interact with the sensors.
+This project implement an Extended Kalman Filter in Self-driving car to track and predict the position of objects around the vehicle. In this object, the EKF system use two sensors data from RADAR and LIDAR measurement for processing EKF. This project used C++ as a programming language because it perform fast and can decrectly interact with the sensors hardware.
 
 # Prerequisites
 
@@ -63,7 +63,7 @@ Here is the simulator final state after running the EKL with dataset 2:
 
 ### Your code should compile
 
-The code compiles without errors. I did change the [CMackeLists.txt](./CMakeLists.txt) to add the creation of the `./Tests`. I don't think this will create incompatibilities with other platforms, but I only test it on Mac OS.
+The code compiles without errors. I think the code should be compatible with other platforms, but I only test it on Mac OS.
 
 ## Accuracy
 
