@@ -43,7 +43,7 @@ As you can see, the simulator connect to it right away.
 
 The following is an image of the simulator:
 
-![Simulator without data](images/simulator_without_running.png)
+![Simulator without data](images/image1.png)
 
 The simulator provides two datasets. The difference between them are:
 
@@ -52,11 +52,11 @@ The simulator provides two datasets. The difference between them are:
 
 Here is the simulator final state after running the EKL with dataset 1:
 
-![Simulator with dataset 1](images/simulator_dataset1.png)
+![Simulator with dataset 1](images/image2.png)
 
 Here is the simulator final state after running the EKL with dataset 2:
 
-![Simulator with dataset 1](images/simulator_dataset2.png)
+![Simulator with dataset 1](images/image3.png)
 
 # [Rubric](https://review.udacity.com/#!/rubrics/748/view) points
 
