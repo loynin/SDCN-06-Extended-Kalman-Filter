@@ -42,9 +42,9 @@ Connected!!!
 As you can see, the simulator connect to it right away.
 
 The following is an image of the simulator:
-
+<kbd>
 ![Simulator without data](images/image1.png)
-
+</kbd>
 The simulator provides two datasets. The difference between them are:
 
 - The direction the car (the object) is moving.
