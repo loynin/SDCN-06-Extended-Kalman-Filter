@@ -1,12 +1,12 @@
 # Self-Driving Car Extended Kalman Filter -  Part 1
-Udacity Self-Driving Car Nanodegree - Extended Kalman Filter Implementation test
+Udacity Self-Driving Car Nanodegree - Extended Kalman Filter Implementation
 
 # Overview
-This project implement an Extended Kalman Filter in Self-driving car to track and predict the position of objects around the vehicle. In this object, the EKF system use two sensors data from RADAR and LIDAR measurement for processing EKF. This project used C++ as a programming language because it perform fast and can decrectly interact with the sensors hardware.
+This project implemented an Extended Kalman Filter in Self-driving car to track and predict the position of objects around the vehicle. In this project, the EKF system use two sensors data from RADAR and LIDAR measurement for processing EKF. This project used C++ as a programming language because it perform fast and can decrectly interact with the sensors hardware.
 
 # Prerequisites
 
-The project has the following dependencies (from Udacity's seed project):
+The project has the following dependencies:
 
 - cmake >= 3.5
 - make >= 4.1
@@ -26,13 +26,13 @@ These are the suggested steps:
 - Create the build directory: `mkdir build`
 - `cd build`
 - `cmake ..`
-- `make`: This will create two executables
+- `make`: This will create an executable file
   - `ExtendedKF` : EKF implementation.
  
 
 ## Running the Filter
 
-From the build directory, execute `./ExtendedKF`. The output should be:
+From the `build` directory, execute `./ExtendedKF`. The output should be:
 
 ```
 Listening to port 4567
