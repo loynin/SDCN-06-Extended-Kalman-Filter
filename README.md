@@ -55,7 +55,7 @@ The simulator provides two datasets. The difference between them are:
 Here is the simulator final state after running the EKL with dataset 1:
 
 <kbd>
-![Simulator with dataset 1](images/image2.png)
+<img src="images/image2.png" />
 </kbd>
 
 Here is the simulator final state after running the EKL with dataset 2:
