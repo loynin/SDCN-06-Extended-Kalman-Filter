@@ -42,9 +42,11 @@ Connected!!!
 As you can see, the simulator connect to it right away.
 
 The following is an image of the simulator:
+
 <kbd>
 ![Simulator without data](images/image1.png)
 </kbd>
+
 The simulator provides two datasets. The difference between them are:
 
 - The direction the car (the object) is moving.
@@ -55,10 +57,13 @@ Here is the simulator final state after running the EKL with dataset 1:
 <kbd>
 ![Simulator with dataset 1](images/image2.png)
 </kbd>
+
 Here is the simulator final state after running the EKL with dataset 2:
+
 <kbd>
 ![Simulator with dataset 1](images/image3.png)
 </kbd>
+
 # [Rubric](https://review.udacity.com/#!/rubrics/748/view) points
 
 ## Compiling
