@@ -43,9 +43,12 @@ As you can see, the simulator connect to it right away.
 
 The following is an image of the simulator:
 
+Here is initialized simulator before running against dataset:
 <kbd>
 <img src="images/image1.png" />
 </kbd>
+
+---
 
 The simulator provides two datasets. The difference between them are:
 
@@ -58,13 +61,15 @@ Here is the simulator final state after running the EKL with dataset 1:
 <img src="images/image2.png" />
 </kbd>
 
+---
+
 Here is the simulator final state after running the EKL with dataset 2:
 
 <kbd>
 <img src="images/image3.png" />
 </kbd>
 
-# [Rubric](https://review.udacity.com/#!/rubrics/748/view) points
+# Project Requirement:
 
 ## Compiling
 
@@ -85,25 +90,25 @@ The EKF accuracy was:
 
 ### Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
 
-The Kalman filter implementation can be found [src/kalman_filter.cpp](./src/kalman_filter.cpp) and it is used to predict at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L147) line 147 and to update line 159 to 169.
+The Kalman filter is implemented on file [src/kalman_filter.cpp](./src/kalman_filter.cpp). The main functions are located on the file [src/FusionEKF.cpp](./src/FusionEKF.cpp): `Predict()` implementation is on line 164 and update measurement implementation is from line 176 to 187.
 
 ### Your Kalman Filter algorithm handles the first measurements appropriately.
 
-The first measurement is handled at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L61) from line 61 to line 107.
+The initialized state of the first measurement is handled at [src/FusionEKF.cpp](./src/FusionEKF.cpp#L63) from line 63 to line 122.
 
 ### Your Kalman Filter algorithm first predicts then updates.
 
-The predict operation could be found at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L147) line 147 and the update operation from line 159 to 169 of the same file.
+The predict operation could be found at [src/FusionEKF.cpp](./src/FusionEKF.cpp#L164) line 164 and the update operation from line 176 to 187.
 
 ### Your Kalman Filter can handle radar and lidar measurements.
 
-Different type of measurements are handled in two places in [src/FusionEKF.cpp](./src/kalman_filter.cpp):
+Different type of measurements are handled in two places in [src/FusionEKF.cpp](./src/FusionEKF.cpp):
 
-- For the first measurement from line 61 to line 107.
-- For the update part from line 159 to 169.
+- For the first measurement from line 63 to line 122.
+- For the update part from line 176 to 187.
 
 ## Code Efficiency
 
 ### Your algorithm should avoid unnecessary calculations.
 
-An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](./src/kalman_filter.cpp#L141) line 135 to line 144.
+An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](./src/FusionEKF.cpp) line 150 to line 162.
